@@ -14,6 +14,7 @@
 		033655DF19F1288A001F68AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033655DE19F1288A001F68AC /* Images.xcassets */; };
 		033655E219F1288A001F68AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 033655E019F1288A001F68AC /* LaunchScreen.xib */; };
 		033655EE19F1288A001F68AC /* NPRUploadAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 033655ED19F1288A001F68AC /* NPRUploadAnimationTests.m */; };
+		033655F919F128B4001F68AC /* NPRUploadProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 033655F819F128B4001F68AC /* NPRUploadProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		033655E719F1288A001F68AC /* NPRUploadAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPRUploadAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		033655EC19F1288A001F68AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		033655ED19F1288A001F68AC /* NPRUploadAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPRUploadAnimationTests.m; sourceTree = "<group>"; };
+		033655F719F128B4001F68AC /* NPRUploadProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NPRUploadProgressView.h; path = src/NPRUploadProgressView.h; sourceTree = "<group>"; };
+		033655F819F128B4001F68AC /* NPRUploadProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NPRUploadProgressView.m; path = src/NPRUploadProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				033655DE19F1288A001F68AC /* Images.xcassets */,
 				033655E019F1288A001F68AC /* LaunchScreen.xib */,
 				033655D119F1288A001F68AC /* Supporting Files */,
+				033655F719F128B4001F68AC /* NPRUploadProgressView.h */,
+				033655F819F128B4001F68AC /* NPRUploadProgressView.m */,
 			);
 			path = NPRUploadAnimation;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				033655DA19F1288A001F68AC /* ViewController.m in Sources */,
 				033655D719F1288A001F68AC /* AppDelegate.m in Sources */,
 				033655D419F1288A001F68AC /* main.m in Sources */,
+				033655F919F128B4001F68AC /* NPRUploadProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

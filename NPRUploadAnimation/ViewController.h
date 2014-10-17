@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+#import "NPRUploadProgressView.h"
+
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet NPRUploadProgressView *uploadProgressView;
+
+- (IBAction)progressChanged:(id)sender;
 
 @end
 
